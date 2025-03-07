@@ -1,3 +1,6 @@
+2.[[:space:]]slurm_script_and_inputs/*.vcf.gz filter=lfs diff=lfs merge=lfs -text
+2.[[:space:]]slurm_script_and_inputs/*.vcf filter=lfs diff=lfs merge=lfs -text
+2.[[:space:]]slurm_script_and_inputs/*.fna.gz filter=lfs diff=lfs merge=lfs -text
 2.[[:space:]]slurm_script_and_inputs/chr11.vcf filter=lfs diff=lfs merge=lfs -text
 2.[[:space:]]slurm_script_and_inputs/glyma.Wm82.gnm2.DTC4.genome_main.fna.gz filter=lfs diff=lfs merge=lfs -text
 2.[[:space:]]slurm_script_and_inputs/glyma.Wm82.gnm2.div.Song_Hyten_2015.vcf.gz filter=lfs diff=lfs merge=lfs -text
