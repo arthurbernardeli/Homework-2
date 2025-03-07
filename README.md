@@ -12,7 +12,8 @@
 
 ## 2. slurm_script_and_inputs 
 - **glyma.Wm82.gnm2.div.Song_Hyten_2015.vcf.gz**: Soybean 50K SNP chip available at [SoyBase](https://www.soybase.org) (compressed).  
-- **glyma.Wm82.gnm2.DTC4.genome_main.fna.gz**: Soybean reference genome version 2 based on Williams 82 accession available at [SoyBase](https://www.soybase.org) (compressed).  
+- **glyma.Wm82.gnm2.DTC4.genome_main.fna.gz**: Soybean reference genome version 2 based on Williams 82 accession available at [SoyBase](https://www.soybase.org) (compressed).
+- **chr11.vcf**: SNPs for chr11 after filtering by chromosome.  
 - **my_fst.sh**: Bash file containing codes used to run FST calculations.
 - **my_fst.txt**: Text file containing codes used to run FST calculations (same as `my_fst.sh`).  
 - **submit_script.slurm**: Slurm file used to execute the Bash code (`my_fst.sh`) through the UNL HCC cluster.  
