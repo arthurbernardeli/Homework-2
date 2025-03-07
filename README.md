@@ -10,12 +10,11 @@
 - **Homework 2 codes.txt**: TXT file containing R notebook codes.  
 - **homework_2 notebook.Rmd**: R file containing R notebook codes.  
 
-## 2. slurm_script_and_inputs
-- **glyma.Wm82.gnm2.div.Song_Hyten_2015.vcf**: Soybean 50K SNP chip available at [SoyBase](https://www.soybase.org) (uncompressed).  
+## 2. slurm_script_and_inputs 
 - **glyma.Wm82.gnm2.div.Song_Hyten_2015.vcf.gz**: Soybean 50K SNP chip available at [SoyBase](https://www.soybase.org) (compressed).  
 - **glyma.Wm82.gnm2.DTC4.genome_main.fna.gz**: Soybean reference genome version 2 based on Williams 82 accession available at [SoyBase](https://www.soybase.org) (compressed).  
 - **my_fst.sh**: Bash file containing codes used to run FST calculations.
-- **my_fst.txt**: Text file containing codes used to run FST calculations (same as my_fst.sh).  
+- **my_fst.txt**: Text file containing codes used to run FST calculations (same as `my_fst.sh`).  
 - **submit_script.slurm**: Slurm file used to execute the Bash code (`my_fst.sh`) through the UNL HCC cluster.  
 - **usda_PIs.xls**: List of 321 PIs from Zhang et al. (2017) used in the scan study.
 - **Zhang et al 2017.pdf**: Manuscript used in this homework. The authors scanned USDA soybean PI accessions from different regions of origin to examine differentiation in seed composition traits  
